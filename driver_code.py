@@ -8,7 +8,6 @@ CORS(app)
 from dotenv import load_dotenv
 load_dotenv()
 
-
 @app.route('/test', methods=['GET'])
 def get_test():
     return "Success....."
